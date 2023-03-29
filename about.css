@@ -1,0 +1,41 @@
+.about {
+  margin: 0 auto;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 18px;
+  line-height: 22px;
+  color: #121212;
+  letter-spacing: -0.01em;
+  padding-bottom: 31px;
+  text-align: left;
+}
+.about_title {
+  width: 100%;
+  font-size: 45px;
+  line-height: 61px;
+  color: #121212;
+  letter-spacing: -0.03em;
+  padding-left: 3px;
+}
+.about_btn {
+  display: block;
+  border-radius: 5px;
+  height: 67px;
+  width: 255px;
+  text-align: center;
+  line-height: 67px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #ad1818;
+  font-size: 20px;
+  letter-spacing: -0.03em;
+  margin-top: 30px;
+}
+.about_btn:hover {
+  color: #ffffff;
+  background-color: #ad1818;
+  cursor: pointer;
+}

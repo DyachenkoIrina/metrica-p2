@@ -1,0 +1,159 @@
+@import "header.css";
+@import "intro.css";
+@import "about.css";
+@import "projects.css";
+@import "services.css";
+@import "carousel.css";
+@import "footer.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  width: 100%;
+  margin: 0 auto;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1149px) {
+  .container {
+    padding-left: 17px;
+    padding-right: 15px;
+  }
+
+  h1 {
+    font-size: 60px;
+    width: 956px;
+    line-height: 60px;
+  }
+  .interior {
+    width: 928px;
+    height: 400px;
+    background-image: url(Chair_tablet.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .image-text {
+    max-width: 430px;
+    margin-bottom: -10px;
+  }
+  .about_title {
+    max-width: 100%;
+    height: 336px;
+    font-size: 35px;
+    line-height: 48px;
+  }
+
+  .project_item {
+    width: 100%;
+    padding-bottom: 80px;
+  }
+  .project_item:nth-last-child(2) {
+    padding-bottom: 102px;
+  }
+  .project_text {
+    font-size: 25px;
+    line-height: 34px;
+    padding-bottom: 10px;
+  }
+  .project_btn {
+    max-width: 928px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+    padding-left: 13px;
+    padding-right: 12px;
+  }
+  h1 {
+    width: 348px;
+    font-size: 31px;
+    line-height: 32px;
+  }
+  .interior {
+    width: 100%;
+    height: 304px;
+    background-image: url(Chair_mob.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 25px;
+  }
+  .image-text {
+    left: 15px;
+    bottom: 25px;
+    max-width: 312px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .main_block {
+    padding-bottom: 80px;
+  }
+  h2,
+  h3,
+  h4 {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .about_title {
+    max-width: 346px;
+    height: 300px;
+    font-size: 23px;
+    line-height: 30px;
+  }
+  .about_btn {
+    width: 194px;
+    height: 51px;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .project_item {
+    width: 100%;
+    padding-bottom: 49px;
+  }
+  .project_item:nth-last-child(2) {
+    padding-bottom: 60px;
+  }
+  .project_img {
+    width: 100%;
+  }
+  .project_text {
+    font-size: 18px;
+    line-height: 25px;
+    padding-top: 20px;
+    padding-bottom: 11px;
+  }
+  .project_link {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .project_btn {
+    max-width: 365px;
+    font-size: 22px;
+    line-height: 30px;
+    border-radius: 4px;
+    padding-top: 37px;
+    padding-bottom: 37px;
+  }
+}

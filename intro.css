@@ -1,0 +1,41 @@
+.intro {
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-bottom: 151px;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 60px;
+  width: 956px;
+  color: #121212;
+  letter-spacing: -0.03em;
+  padding-top: 5px;
+}
+
+.intro_image {
+  max-width: 100%;
+  position: relative;
+  margin-top: 31px;
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.2) 100%
+  );
+  background-image: url(chair.png);
+}
+
+.intro_image__text {
+  width: 430px;
+  bottom: 40px;
+  position: absolute;
+  left: 40px;
+  font-size: 20px;
+  line-height: 26px;
+  color: #ffffff;
+  letter-spacing: -0.03em;
+}
