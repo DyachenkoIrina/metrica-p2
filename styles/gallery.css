@@ -1,0 +1,28 @@
+.gallery_wrapper {
+  height: 718px;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0.52%,
+      rgba(0, 0, 0, 0.4) 82.81%
+    ),
+    url(image.png);
+  background-image: url(/resources/two_room_apartments.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.gallery {
+  margin: 0 auto;
+  width: 1400px;
+}
+
+.bedroom {
+  width: 443px;
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: -0.033em;
+  color: #ffffff;
+  padding-top: 577px;
+  padding-left: 126px;
+}

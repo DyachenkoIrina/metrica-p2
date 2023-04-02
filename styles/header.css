@@ -1,0 +1,38 @@
+.nav-section {
+  margin: 0 auto;
+  width: 1400px;
+  box-sizing: border-box;
+  padding-top: 30px;
+  padding-left: 123px;
+  padding-bottom: 64px;
+}
+
+.logo-link {
+  padding-right: 557px;
+  padding-left: 1px;
+  text-decoration: none;
+}
+
+.nav {
+  display: inline;
+}
+
+.nav-link {
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.06em;
+  color: #121212;
+  text-decoration: none;
+  margin-right: 60px;
+  padding-bottom: 2px;
+}
+
+.nav-link:nth-last-child() {
+  padding-right: 0px;
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid #000000;
+  color: #121212;
+  opacity: 50%;
+}
