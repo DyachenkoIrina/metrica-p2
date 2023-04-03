@@ -7,7 +7,6 @@ h6 {
   letter-spacing: -0.03em;
   color: #000000;
   padding-top: 150px;
-  padding-left: 2px;
 }
 .reviews {
   max-width: 1150px;
@@ -24,6 +23,7 @@ h6 {
 }
 .reviews :nth-last-child(1) {
   max-width: 861px;
+  padding-bottom: 0px;
 }
 .reviews :nth-last-child(2) {
   max-width: 505px;
@@ -33,7 +33,7 @@ h6 {
   font-size: 45px;
   line-height: 61px;
   letter-spacing: -0.03em;
-  padding-bottom: 14px;
+  padding-bottom: 12px;
   padding-top: 30px;
 }
 .review_content {
@@ -46,20 +46,30 @@ h6 {
   h6 {
     padding-top: 117px;
   }
+  .reviews {
+    column-gap: 10px;
+    padding-bottom: 120px;
+  }
+  .review {
+    max-width: 459px;
+    padding-bottom: 50px;
+  }
+  .reviews :nth-last-child(1) {
+    max-width: 694px;
+    padding-bottom: 0px;
+  }
+  .reviews :nth-last-child(2) {
+    max-width: 460px;
+  }
   .review_name {
     font-size: 35px;
     line-height: 48px;
     padding-bottom: 25px;
+    padding-top: 30px;
   }
   .review_content {
     font-size: 20px;
     line-height: 27px;
-  }
-  .review {
-    padding-bottom: 80px;
-  }
-  .review:nth-last-child(1) {
-    width: 694px;
   }
 }
 
@@ -67,6 +77,15 @@ h6 {
   h6 {
     padding-top: 80px;
   }
+  .reviews {
+    column-gap: 0px;
+    padding-bottom: 0px;
+  }
+  .review {
+    max-width: 374px;
+    padding-bottom: 80px;
+  }
+
   .review_name {
     font-size: 25px;
     line-height: 34px;
@@ -76,13 +95,5 @@ h6 {
   .review_content {
     font-size: 16px;
     line-height: 22px;
-  }
-  .review {
-    width: 100%;
-    padding-bottom: 80px;
-  }
-  .review:nth-last-child(1) {
-    max-width: 350px;
-    padding-bottom: 80px;
   }
 }
