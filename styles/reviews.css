@@ -1,11 +1,8 @@
 .reviews_wrapper {
   margin: 0 auto;
 }
-h6 {
-  font-size: 18px;
-  line-height: 25px;
-  letter-spacing: -0.03em;
-  color: #000000;
+h3 {
+  letter-spacing: -0.01em;
   padding-top: 150px;
 }
 .reviews {
@@ -34,7 +31,6 @@ h6 {
   line-height: 61px;
   letter-spacing: -0.03em;
   padding-bottom: 12px;
-  padding-top: 30px;
 }
 .review_content {
   font-size: 22px;
@@ -43,7 +39,7 @@ h6 {
 }
 
 @media (max-width: 1199px) {
-  h6 {
+  h3 {
     padding-top: 117px;
   }
   .reviews {
@@ -52,20 +48,19 @@ h6 {
   }
   .review {
     max-width: 459px;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
   }
   .reviews :nth-last-child(1) {
     max-width: 694px;
     padding-bottom: 0px;
   }
   .reviews :nth-last-child(2) {
-    max-width: 460px;
+    max-width: 459px;
   }
   .review_name {
     font-size: 35px;
     line-height: 48px;
     padding-bottom: 25px;
-    padding-top: 30px;
   }
   .review_content {
     font-size: 20px;
@@ -74,12 +69,12 @@ h6 {
 }
 
 @media (max-width: 767px) {
-  h6 {
+  h3 {
     padding-top: 80px;
   }
   .reviews {
     column-gap: 0px;
-    padding-bottom: 0px;
+    padding-bottom: 80px;
   }
   .review {
     max-width: 374px;
@@ -90,7 +85,6 @@ h6 {
     font-size: 25px;
     line-height: 34px;
     padding-bottom: 10px;
-    padding-top: 22px;
   }
   .review_content {
     font-size: 16px;
