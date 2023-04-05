@@ -2,13 +2,8 @@
   background: #121212;
   margin: 0 auto;
 }
-h4 {
-  font-size: 18px;
-  line-height: 25px;
-  letter-spacing: -0.02em;
+.services_heading {
   color: #ffffff;
-  padding-top: 151px;
-  padding-bottom: 35px;
   padding-left: 2px;
 }
 .services {
@@ -32,11 +27,11 @@ h4 {
   width: 350px;
   margin-left: 4px;
   font-size: 30px;
-  line-height: 41px;
-  letter-spacing: -0.03em;
+  line-height: 40px;
+  letter-spacing: -0.02em;
   color: #ffffff;
   margin-left: 3px;
-  padding-top: 25px;
+  padding-top: 22px;
 }
 .item_price {
   position: absolute;
@@ -51,11 +46,11 @@ h4 {
   text-align: center;
   margin-top: 31px;
   margin-left: 30px;
-  padding: 8px 21px;
+  padding: 7px 21px;
 }
 
 .service_btn {
-  margin-top: 20px;
+  font-family: inherit;
   height: 153px;
   width: 100%;
   font-size: 30px;
@@ -95,7 +90,7 @@ h4 {
     width: 100%;
     padding-bottom: 60px;
   }
-  h4 {
+  .services_heading {
     font-size: 14px;
     line-height: 19px;
     padding-top: 80px;
