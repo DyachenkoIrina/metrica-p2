@@ -133,10 +133,10 @@
     height: 25px;
   }
   .gallery__control-prev {
-    background-image: url(..resources/gallery/controller_prev_mob.png);
+    background-image: url(.resources/gallery/controller_prev_mob.png);
   }
 
   .gallery__control-next {
-    background-image: url(..resources/gallery/controller_next_mob.png);
+    background-image: url(.resources/gallery/controller_next_mob.png);
   }
 }
