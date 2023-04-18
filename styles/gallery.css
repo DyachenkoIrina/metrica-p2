@@ -52,9 +52,13 @@
   bottom: 60px;
 }
 
-.gallery__controls {
+.gallery__controls_wrapper {
   position: absolute;
-  bottom: 162px;
+  width: 100%;
+  bottom: 165px;
+}
+
+.gallery__controls {
   display: flex;
   row-gap: 14px;
 }
@@ -100,9 +104,11 @@
     bottom: 80px;
   }
 
-  .gallery__controls {
-    gap: 35px;
+  .gallery__controls_wrapper {
     bottom: 155px;
+  }
+  .gallery__controls {
+    row-gap: 35px;
   }
 }
 @media (max-width: 767px) {
@@ -121,10 +127,10 @@
     bottom: 60px;
   }
 
-  .gallery__controls {
+  .gallery__controls_wrapper {
     bottom: 191px;
-    right: 13px;
-    width: 100%;
+  }
+  .gallery__controls {
     justify-content: space-between;
   }
   .gallery__control-prev,
