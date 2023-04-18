@@ -4,9 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Метрика</title>
-    <link rel="icon" href="Favicon.png" type="image/png" />
+    <link rel="icon" href="resources/Favicon.png" type="image/png" />
     <link rel="stylesheet" href="reset.css" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -63,15 +62,15 @@
           <picture>
             <source
               media="(max-width: 1199px)"
-              srcset="resources/right_bank_tablet.png"
+              srcset="/resources/right_bank_tablet.png"
             />
             <source
               media="(max-width: 767px)"
-              srcset="resources/right_bank_mob.png"
+              srcset="/resources/right_bank_mob.png"
             />
             <img
               class="project_img"
-              src="resources/red_sofa.png"
+              src="/resources/red_sofa.png"
               alt="Красный диван"
             />
           </picture>
@@ -82,15 +81,15 @@
           <picture>
             <source
               media="(max-width: 1199px)"
-              srcset="resources/norwegian_park_tablet.png"
+              srcset="/resources/norwegian_park_tablet.png"
             />
             <source
               media="(max-width: 767px)"
-              srcset="resources/norwegian_park_mob.png"
+              srcset="/resources/norwegian_park_mob.png"
             />
             <img
               class="project_img"
-              src="resources/norwegian_park.png"
+              src="/resources/norwegian_park.png"
               alt="Гостиная"
             />
           </picture>
@@ -101,15 +100,15 @@
           <picture>
             <source
               media="(max-width: 1199px)"
-              srcset="resources/pine_lakes_tablet.png"
+              srcset="/resources/pine_lakes_tablet.png"
             />
             <source
               media="(max-width: 767px)"
-              srcset="resources/pine_lakes_mob.png"
+              srcset="/resources/pine_lakes_mob.png"
             />
             <img
               class="project_img"
-              src="resources/pine_lakes.png"
+              src="/resources/pine_lakes.png"
               alt="Столовая"
             />
           </picture>
@@ -130,28 +129,28 @@
             <div class="item_price">
               <p class="label">от 2500₽/м²</p>
             </div>
-            <img class="item_img" src="resources/layout.png" alt="Карандаш" />
+            <img class="item_img" src="/resources/layout.png" alt="Карандаш" />
             <p class="item_name">Планировочное решение</p>
           </div>
           <div class="service_item">
             <div class="item_price">
               <p class="label">от 3000₽/м²</p>
             </div>
-            <img class="item_img" src="resources/design.png" alt="Палитра" />
+            <img class="item_img" src="/resources/design.png" alt="Палитра" />
             <p class="item_name">Дизайн-проект</p>
           </div>
           <div class="service_item">
             <div class="item_price">
               <p class="label">от 30 000₽/мес</p>
             </div>
-            <img class="item_img" src="resources/control.png" alt="Чертеж" />
+            <img class="item_img" src="/resources/control.png" alt="Чертеж" />
             <p class="item_name">Авторский надзор</p>
           </div>
           <div class="service_item">
             <div class="item_price">
               <p class="label">5% от стоимости</p>
             </div>
-            <img class="item_img" src="resources/equipment.png" alt="Склад" />
+            <img class="item_img" src="/resources/equipment.png" alt="Склад" />
             <p class="item_name">Комплектация</p>
           </div>
         </div>
@@ -216,14 +215,72 @@
       </div>
     </div>
 
-    <!-- <div class="gallery_wrapper">
+    <section class="gallery__wrapper">
       <div class="gallery">
-        
+        <div class="container">
+          <p class="gallery__tittle">ГАЛЕРЕЯ ПРОЕКТОВ</p>
+        </div>
 
-        <p class="bedroom">Проект Двухкомнaтной квартиры в ЖК Лесной Пейзаж</p>
+        <div class="gallery__slides">
+          <div class="gallery__slide gallery__slide_active">
+            <img
+              class="gallery__image"
+              src="/resources/gallery/gallery_1.jpg"
+              alt="Проект квартиры в ЖК Лесной Пейзаж"
+            />
+            <div class="container">
+              <p class="gallery__text">
+                Проект Двухкомнaтной квартиры в ЖК Лесной Пейзаж
+              </p>
+            </div>
+          </div>
+          <div class="gallery__slide">
+            <img
+              class="gallery__image"
+              src="resources/gallery/gallery_2.jpg"
+              alt="Проект гостиной в ЖК Маяк"
+            />
+            <div class="container">
+              <p class="gallery__text">Проект гостиной в ЖК Маяк</p>
+            </div>
+          </div>
+          <div class="gallery__slide">
+            <img
+              class="gallery__image"
+              src="resources/gallery/gallery_3.jpg"
+              alt="Кухня-гостиная в частном доме"
+            />
+            <div class="container">
+              <p class="gallery__text">
+                Визуализация кухни-гостиной <br />
+                в частном доме
+              </p>
+            </div>
+          </div>
+          <div class="gallery__slide">
+            <img
+              class="gallery__image"
+              src="resources/gallery/gallery_4.jpg"
+              alt="Проект кухни в скандинавском стиле"
+            />
+            <div class="container">
+              <p class="gallery__text">
+                Проект кухни в скандинавском стиле для ЖК Северный Ветер
+              </p>
+            </div>
+          </div>
+          <div class="gallery__controls-wrapper">
+            <div class="container">
+              <button class="gallery__control-prev"></button>
+              <button class="gallery__control-next"></button>
+            </div>
+          </div>
+        </div>
       </div>
-      </div>
-      <div id="contacts" class="contacts_wrapper">
+    </section>
+    <script src="script/gallery.js"></script>
+
+    <!--  <div id="contacts" class="contacts_wrapper">
       <h4>КОНТАКТЫ</h4>
       <p class="phone_number">
         <a href="tel:+7 935 895-45-35" class="cellphone">+7 935 895-45-35</a>
