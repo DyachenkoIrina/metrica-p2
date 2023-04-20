@@ -22,7 +22,7 @@ h2 {
   display: block;
   height: 22px;
   width: 14px;
-  background-image: url(../resources/contacts/phone-icon.png);
+  background-image: url(resources/contacts/phone-icon.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -41,7 +41,7 @@ h2 {
   display: block;
   height: 26px;
   width: 19px;
-  background-image: url(../resources/contacts/telegram-icon.png);
+  background-image: url(resources/contacts/telegram-icon.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
