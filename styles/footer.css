@@ -6,31 +6,19 @@ footer {
 .links_wrapper {
   margin: 0 auto;
   box-sizing: border-box;
-  width: 460px;
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
   padding-top: 62px;
   padding-bottom: 87px;
-  padding-left: 1px;
 }
 
 .link {
-  display: inline-block;
   text-decoration: none;
   font-size: 18px;
   line-height: 23px;
   letter-spacing: -0.05em;
   color: #ffffff;
-}
-
-.link:nth-child(1) {
-  padding-right: 53px;
-}
-
-.link:nth-child(2) {
-  padding-right: 56px;
-}
-
-.link:nth-child(3) {
-  padding-right: 55px;
 }
 
 .design_studio {
@@ -40,12 +28,29 @@ footer {
   line-height: 25px;
   letter-spacing: -0.03em;
   opacity: 50%;
-  padding-left: 26px;
-  padding-right: 20px;
   padding-top: 1px;
 }
 
 .link:hover {
   text-decoration: none;
   opacity: 50%;
+}
+
+@media (max-width: 767px) {
+  footer {
+    height: 131px;
+  }
+  .links_wrapper {
+    width: 280px;
+    padding-top: 30px;
+    padding-bottom: 41px;
+  }
+  .link {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .design_studio {
+    font-size: 13px;
+    line-height: 18px;
+  }
 }
