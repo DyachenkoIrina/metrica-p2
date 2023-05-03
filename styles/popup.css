@@ -98,7 +98,7 @@
   top: 42px;
   right: 44px;
   cursor: pointer;
-  background-image: url(/resources/popup/close_btn.png);
+  background-image: url(../resources/popup/close_btn.png);
   background-size: cover;
 }
 
@@ -123,7 +123,7 @@
     height: 30px;
     top: 46px;
     right: 35px;
-    background-image: url(/resources/popup/close_btn_mob.png);
+    background-image: url(../resources/popup/close_btn_mob.png);
     background-size: auto;
     background-repeat: no-repeat;
   }
