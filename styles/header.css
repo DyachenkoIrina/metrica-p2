@@ -130,7 +130,7 @@ header {
   top: 27px;
   right: 27px;
   cursor: pointer;
-  background-image: url(/resources/burger/burger_close_btn.png);
+  background-image: url(../resources/burger/burger_close_btn.png);
   background-size: cover;
   z-index: 100;
 }
