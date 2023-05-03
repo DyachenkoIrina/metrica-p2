@@ -16,13 +16,11 @@
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
-    <!--
-
-<div class="nav-section">
+   <header>
       <a class="logo-link" href="#">
         <img
           class="logo"
-          src="/resources/Logo.png"
+          src="resources/Logo.png"
           alt="Логотип студии Метрика"
         />
       </a>
@@ -32,9 +30,39 @@
         <a href="#services" class="nav-link">УСЛУГИ</a>
         <a href="#contacts" class="nav-link">КОНТАКТЫ</a>
       </div>
-    </div>
+      <button class="js-burger-btn"></button>
+      <div class="burger js-burger">
+        <div class="burger__content">
+          <a class="burger-logo-link" href="#">
+            <img
+              class="burger-logo"
+              src="resources/Logo.png"
+              alt="Логотип студии Метрика"
+            />
+          </a>
 
-    -->
+          <div class="burger-nav">
+            <a href="#about" class="burger-nav-link">О НАС</a>
+            <a href="#projects" class="burger-nav-link">ПРОЕКТЫ</a>
+            <a href="#services" class="burger-nav-link">УСЛУГИ</a>
+            <a href="#contacts" class="burger-nav-link">КОНТАКТЫ</a>
+          </div>
+          <p class="burger-text">для связи:</p>
+          <div class="burger-contacts__block js-burger__content">
+            <a class="burger-contacts__phone" href="tel:+7 935 895-45-35"
+              >+7 935 895-45-35</a
+            >
+            <a
+              class="burger-contacts__link"
+              target="_blank"
+              href="https://t.me/DyachenkoIrina"
+              >DyachenkoIrina</a
+            >
+          </div>
+          <div class="js-buger__close-btn burger__close-btn"></div>
+        </div>
+      </div>
+    </header>
 
     <div class="container">
       <div class="intro">
@@ -154,7 +182,29 @@
             <p class="item_name">Комплектация</p>
           </div>
         </div>
-        <button class="service_btn">Заказать услугу</button>
+        <button class="js-btn">Заказать услугу</button>
+      </div>
+    </div>
+    
+    <div class="js-popup popup">
+      <div class="js-popup__content popup__content">
+        <p class="popup__tittle">Заказать услугу</p>
+        <p class="popup__text">
+          Заполните форму, мы свяжемся <br />
+          с вами в течение суток
+        </p>
+        <div class="input__wrapper">
+          <input class="input" type="text" placeholder="Имя" />
+          <input class="input" type="text" placeholder="Электронная почта" />
+          <input class="input" type="text" placeholder="Номер телефона" />
+        </div>
+        <div class="popup__container">
+          <div class="popup__btn_wrapper">
+            <button class="popup__btn">Отправить</button>
+          </div>
+        </div>
+
+        <div class="js-popup__close-btn popup__close-btn"></div>
       </div>
     </div>
 
