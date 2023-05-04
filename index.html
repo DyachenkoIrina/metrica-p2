@@ -193,11 +193,21 @@
           Заполните форму, мы свяжемся <br />
           с вами в течение суток
         </p>
-       <div class="input__wrapper">
-          <input class="input" type="text" placeholder="Имя" />
-          <input class="input" type="email" placeholder="Электронная почта" />
-          <input class="input" type="tel" placeholder="Номер телефона" />
-        </div>
+       <form class="input__wrapper" autocomplete="on">
+          <input class="input" type="text" name="name" placeholder="Имя" />
+          <input
+            class="input"
+            type="email"
+            name="email"
+            placeholder="Электронная почта"
+          />
+          <input
+            class="input"
+            type="tel"
+            name="phone"
+            placeholder="Номер телефона"
+          />
+        </form>
         <div class="popup__container">
           <div class="popup__btn_wrapper">
             <button class="popup__btn">Отправить</button>
